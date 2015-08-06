@@ -1,0 +1,35 @@
+
+Calibrate::Configurable
+[32m  should set defaults[0m
+[32m  #to_hash[0m
+[32m  #from_hash[0m
+[32m  should complain about unset required fields[0m
+[32m  should complain about unset nested required fields[0m
+[32m  should not complain when required fields are set[0m
+[32m  should inspect cleanly[0m
+  with DirectoryStructure
+[32m    should complain about missing fields[0m
+[32m    should inspect cleanly[0m
+    distinctness
+[32m      should have same values[0m
+[32m      should have different actual objects[0m
+    with root path configured, but missing a relative path
+[32m      should complain about missing fields[0m
+    with required paths configured
+[32m      should not complain about required fields[0m
+[32m      should match /rainbow\/a_place\/a.file$/[0m
+[32m      should match /^\/home\/judson\/ruby\/gems\/calibrate/[0m
+[32m      should eq "/tmp/bundle_workdir/aws-creds/cert.pem"[0m
+[32m      should eq "/tmp/bundle_workdir/image.manifest.xml"[0m
+[32m      should eq "/tmp/bundle_workdir/aws-creds"[0m
+  multiple instances
+[32m    should not have any validation errors[0m
+[32m    should accurately reflect settings[0m
+  copying settings
+[32m    should make copies not references[0m
+[32m    should not copy no_copy[0m
+[32m    should not proxy no_proxy[0m
+
+Finished in 0.02137 seconds (files took 0.17598 seconds to load)
+[32m23 examples, 0 failures[0m
+
