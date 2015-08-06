@@ -18,6 +18,18 @@ Gem::Specification.new do |spec|
   # Do this: y$@"
   # !!find lib bin doc spec spec_help -not -regex '.*\.sw.' -type f 2>/dev/null
   spec.files		= %w[
+    lib/calibrate.rb
+    lib/calibrate/configurable/field-processor.rb
+    lib/calibrate/configurable/proxy-value.rb
+    lib/calibrate/configurable/instance-methods.rb
+    lib/calibrate/configurable/class-methods.rb
+    lib/calibrate/configurable/directory-structure.rb
+    lib/calibrate/configurable/field-metadata.rb
+    lib/calibrate/yard-extensions.rb
+    lib/calibrate/configurable.rb
+    spec/configurable.rb
+    spec_help/spec_helper.rb
+    spec_help/gem_test_suite.rb
   ]
 
   spec.test_file        = "spec_help/gem_test_suite.rb"
