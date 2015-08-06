@@ -30,6 +30,6 @@ Calibrate::Configurable
 [32m    should not copy no_copy[0m
 [32m    should not proxy no_proxy[0m
 
-Finished in 0.02137 seconds (files took 0.17598 seconds to load)
+Finished in 0.01722 seconds (files took 0.20981 seconds to load)
 [32m23 examples, 0 failures[0m
 
