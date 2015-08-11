@@ -42,7 +42,7 @@ class MyThingDoer
   end
 
   def update_from(other)
-    other.copy_to(self)
+    other.copy_settings_to(self)
   end
 
   def do_eeeeet
