@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name		= "calibrate"
-  spec.version		= "0.0.1"
+  spec.version		= "0.0.2"
   author_list = {
     "Judson Lester" => 'nyarly@gmail.com'
   }
@@ -43,7 +43,7 @@ Gem::Specification.new do |spec|
   spec.rdoc_options	+= %w{--main doc/README }
   spec.rdoc_options	+= ["--title", "#{spec.name}-#{spec.version} Documentation"]
 
-  #spec.add_dependency("", "> 0")
+  spec.add_dependency("rake", "~> 12.3")
 
   #spec.post_install_message = "Thanks for installing my gem!"
 end
