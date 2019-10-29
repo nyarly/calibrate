@@ -69,7 +69,7 @@ GEM
     simplecov-html (0.10.2)
     tilt (2.0.9)
     valise (1.2.1)
-    yard (0.9.18)
+    yard (0.9.20)
 
 PLATFORMS
   ruby
