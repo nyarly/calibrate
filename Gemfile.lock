@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     calibrate (0.0.2)
-      rake (~> 12.3)
+      rake (>= 12.3, < 14.0)
 
 GEM
   remote: https://rubygems.org/
@@ -39,7 +39,7 @@ GEM
     mini_portile2 (2.4.0)
     nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
-    rake (12.3.2)
+    rake (13.0.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
